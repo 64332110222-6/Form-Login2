@@ -83,6 +83,7 @@ const validateInput = (inputObj) => {
                         usernameInput.style.border = '2px solid red';
                         passwordInput.style.border = '2px solid red';
                     } else {
+                        alert("Wellcome: "+usernameTrim)
                         console.log("step5: Correct");
                         location.assign("https://www.example.com")
                     }
